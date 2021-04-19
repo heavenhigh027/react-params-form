@@ -1,0 +1,45 @@
+{
+  "name": "react-params-form",
+  "homepage": "http://heavenhigh027.github.com/react-params-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "gh-pages": "^3.1.0",
+    "react": "17.0.2",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^6.15.5",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heavenhigh027/react-params-form.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heavenhigh027/react-params-form/issues"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
